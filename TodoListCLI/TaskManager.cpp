@@ -54,7 +54,7 @@ void TaskManager::ShowTasks() const
 		return;
 	}
 
-	std::cout << "To-Do List:\n";
+	std::cout << "\nTo-Do List:\n";
 
 	while (sqlite3_step(stmt) == SQLITE_ROW)
 	{
